@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Category validation styling */
+select:invalid {
+    border-color: #ef4444;
+    box-shadow: 0 0 0 1px #ef4444;
+} 
